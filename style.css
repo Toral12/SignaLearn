@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Metrophobic-Regular;
+    src: url(fonts/Metrophobic-Regular.ttf);
+}
+@font-face {
+    font-family: Mitr-Bold;
+    src: url(fonts/Mitr-Bold.ttf);
+}
+@font-face {
+    font-family: Mitr-Regular;
+    src: url(fonts/Mitr-Regular.ttf);
+}
+
+body{
+    margin:0px;
+}
+#cabeza{
+    background-color: #1a535c;
+    padding: 5px;
+    padding-left: 50px;
+    color:white;
+    font-family: Mitr-Regular;
+}
+h1{
+    font-size: 50px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow:hidden;
+    padding-right: 20px;
+    box-shadow: 2px 2px 3px;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display:block;
+    text-align:center;
+    font-family: Metrophobic-Regular;
+    font-size: 22px;
+}
+h2{
+    font-size: 30px;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color: lightgray;
+}
+.navbar li{
+     float:right;
+}
+#logoblan{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    width: 170px;
+    z-index: 1;
+}
+.navbar a.active{
+    background-color: lightgrey;
+}
+.linea-vertical {
+    border-left: 2px 
+    solid aquamarine; 
+    height: 150px; 
+    width: 0px ; 
+    position: absolute;
+    top: 30px; 
+    left: 535px;
+    z-index: 0; 
+    margin: 0 auto;
+    display:block;
+}
+#cuerpo {
+    margin-top: 70px;
+    text-align: center;
+}
+#cuerpo h3 {
+    font-size: 24px; 
+    font-weight: normal; 
+    text-align: center;
+}
+#imageninfo{
+    display:block;
+    margin:auto;
+    position: fixed;
+    top:10px;
+    left: 360px;
+    width: 170px;
+}
+.libros {
+    margin-top: 20px; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+.libros{
+width: 375px; 
+margin: 0 850px;
+position: relative;
+top: 500px; 
+}
+.objetivo {
+    background-color: green; 
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.objetivo p {
+    background-color: #28a745; 
+    color: white; 
+    padding: 10px; 
+    margin: 0; 
+    border-radius: 5px; 
+}
+.buttons{
+    border: 10px solid white;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px rgb(188, 188, 188);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px; 
+    height: 200px; 
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+li{
+    color: black;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10;
+}
+.objetivo2 {
+    background-color: #61a7ec; 
+    color: black; 
+    padding: 10px; 
+    margin: 0; 
+    border-radius: 5px; 
+}
+.objetivo2 p {
+    background-color: #1a60d1; 
+    color: white; 
+    padding: 10px; 
+    margin: 0; 
+    border-radius: 5px; 
+}
+.objetivo3 {
+    background-color: #bd57e9; 
+    color: black; 
+    padding: 10px; 
+    margin: 0; 
+    border-radius: 5px; 
+}
+.objetivo3 p {
+    background-color: #b611ed; 
+    color: white; 
+    padding: 10px; 
+    margin: 0; 
+    border-radius: 5px; 
+}

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Metrophobic-Regular;
+    src: url(fonts/Metrophobic-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mitr-Regular;
+    src: url(fonts/Mitr-Regular.ttf);
+}
+
+body{
+    background-color: #F0F2F5;
+    margin: 0px;
+}
+.cabeza{
+    padding:0px;
+    font-family: Mitr-Regular;
+    font-weight: 100;
+    color: #1a535c;
+    
+
+}
+#subtitle{
+  color: #A09A9A;
+  font-family: Metrophobic-Regular;
+  border: 2px;
+  max-width:500px;
+  max-height: 300px;
+  font-size: 20px;
+}
+
+h1{
+    font-size: 70px;
+    margin:0px;
+}
+
+.buttons{
+    border: 10px solid white;
+    padding:10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px rgb(188, 188, 188);
+    background-color: white;
+    display: inline-block;
+    
+}
+.buttons input{
+    border-radius: 5px;
+    border-color:rgba(125, 125, 125, 0.266);
+    padding:8px; 
+}
+#botoncrear{
+    background-color: #1a535c;
+    border:none;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    color:white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.todo header{
+    position: absolute;
+    left: 20%;
+    top:30%;
+
+}
+.todo .buttons{
+    position: absolute;
+    top:35%;
+    left:65%;
+}
+#logo{
+    position:absolute;
+    top:10%;
+    left: 88%;
+}
+#botoncrear:hover{
+    background-color: #1a535cc8;
+}
